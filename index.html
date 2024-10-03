@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Đăng nhập - Website Các Môn Học</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,30 +12,23 @@
             <div class="logo">
                 <img src="logouit.png" alt="University Logo">
                 <div class="logo-text">
-                    <text>ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH</text>
-                    <text>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN</text>
+                    <p>ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH</p>
+                    <p>TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN</p>
                     <h2>WEBSITE CÁC MÔN HỌC</h2>
                 </div>
             </div>
             <form>
-                <label for="username">Tên tài khoản</label>
-                <input type="text" id="username" name="username" placeholder="Tên tài khoản">
-
-                <label for="password">Mật khẩu</label>
-                <input type="password" id="password" name="password" placeholder="Mật khẩu">
-
+                <input type="text" placeholder="Tên tài khoản" required>
+                <input type="password" placeholder="Mật khẩu" required>
                 <button type="submit">Đăng nhập</button>
-
-                <a href="#">Quên mật khẩu?</a>
             </form>
-
-            <div class="line">
+            <a href="#" class="forgot-password">Quên mật khẩu?</a>
+            <div>
                 <hr>
             </div>
-
             <div class="footer">
-                <select name="language" id="language">
-                    <option value="vi">Vietnamese (vi)</option>
+                <select>
+                    <option>Vietnamese (vi)</option>
                 </select>
                 <div class="line-vertical"></div>
                 <button class="cookies-btn">Thông báo từ các Cookies</button>
